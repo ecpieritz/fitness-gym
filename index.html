@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +11,56 @@
   <link rel="stylesheet" href="./style/sass/style.css">
 
   <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
 
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
   </style>
 
   <title>Academia Fitness</title>
 </head>
+
 <body>
   <header>
-
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img class="logo" src="img/logo.png" alt="logo da academia Fitness">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">
+                          <font style="vertical-align: inherit;">
+                              <font style="vertical-align: inherit;">Home</font>
+                          </font>
+                      </a>
+                  </li>
+              </ul>
+              <form class="d-flex">
+                  <input class="form-control me-2" type="search" aria-label="Procurar">
+                  <button class="btn btn-outline-success btn-primary" type="submit">
+                      <font style="vertical-align: inherit;">
+                          <font style="vertical-align: inherit;">Procurar</font>
+                      </font>
+                  </button>
+              </form>
+          </div>
+      </div>
+  </nav>
   </header>
 
   <main>
@@ -33,4 +76,5 @@
   <!-- Bootstrap Js -->
   <script src="./style/js/bootstrap.min.js"></script>
 </body>
+
 </html>
