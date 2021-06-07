@@ -1,0 +1,176 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 3rem;
+}
+
+.logo {
+  max-height: 50px;
+  width: auto;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #d52856;
+  border-color: #d52856;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #b52249;
+  border-color: #b52249;
+}
+
+.btn-secondary {
+  color: black;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #b52249;
+  border-color: #b52249;
+}
+
+/*===== CAROUSEL =====*/
+.carousel {
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 35rem;
+  background-color: black;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 35rem;
+  opacity: 0.5;
+}
+
+/*===== MARKETING =====*/
+.marketing {
+  margin-bottom: 3rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .marketing-img {
+  width: 140px;
+  height: 140px;
+  -webkit-transition: width 0.5s,height 0.5s;
+  transition: width 0.5s,height 0.5s;
+}
+
+.marketing .marketing-img:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.marketing h2 {
+  font-weight: 400px;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/*===== QUOTE =====*/
+.quote {
+  min-height: 300px;
+  height: auto;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.quote-one {
+  background: url("../img/trilha.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.quote-two {
+  background: url("../img/treino-praia.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax {
+  background-color: rgba(0, 0, 0, 0.555);
+  min-height: 300px;
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 100px;
+}
+
+/*===== FOOTER =====*/
+.footer {
+  margin-top: 3rem;
+  padding: 20px 0;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: .60rem;
+  background-color: #fff;
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d52856;
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b52249;
+  border-radius: .5rem;
+}
+
+/*===== MEDIA QUERY =====*/
+@media (min-width: 40em) {
+  .carousel-item {
+    height: 38rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
