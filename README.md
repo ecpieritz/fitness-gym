@@ -2,7 +2,7 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "https://github.com/ecpieritz/fitness-gym/blob/main/img/fitness-gym-print.png?raw=true" width = "800">
+  <img src = "https://github.com/ecpieritz/fitness-gym/blob/main/img/fitness-gym-print.png?raw=true" width = "801">
 </p>
 
 ## 📖 About
